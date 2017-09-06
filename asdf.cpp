@@ -14,6 +14,7 @@ using namespace std;
 
 int area (int num){
 	int a,b,l,h,peri,m,n,o,B,ar;
+	int pi=3.14;
 
 	
 	switch(num)
@@ -71,8 +72,8 @@ int area (int num){
 		cout<<"ingresa radio\n";
 		cin>>b;
 		
-		ar=(b*b)*3.14159;
-		peri=2*3.14159*b;
+		ar=(b*b)*pi;
+		peri=2*pi*b;
 		cout <<"area= "<<ar<<"\n";
 		cout <<"perimetro= "<<peri<<"\n";
 		break;
@@ -205,3 +206,4 @@ int main (int argc, char*argv[]){
 	cin.get();	
 	return 0;
 }
+
