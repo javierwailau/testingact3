@@ -147,7 +147,7 @@ bool esNumerico(string linea)
      
        if (longitud == 0) { // Cuando el usuario pulsa ENTER
           P = false;
-       } else if ((longitud == 1) &&!(isdigit(linea[0]))) {
+       } else if ((longitud == 1) && (!isdigit(linea[0]))) {
           P = false;
        } else {
           int i;
