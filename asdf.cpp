@@ -14,7 +14,7 @@ using namespace std;
 
 int area (int num){
 	int a,b,l,h,peri,m,n,o,B,ar;
-	int pi=3.14;
+	int pi=3;
 
 	
 	switch(num)
@@ -170,7 +170,7 @@ bool esNumerico(string linea)
        return P;
     }
     
-int main (){
+int main (int argc, char*argv[]){
 	
 	string linea;
 	int num;
