@@ -170,7 +170,7 @@ bool esNumerico(string linea)
        return P;
     }
     
-int main (int argc, char*argv[]){
+int main (){
 	
 	string linea;
 	int num;
