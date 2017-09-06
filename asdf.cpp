@@ -196,7 +196,7 @@ int main (int argc, char*argv[]){
 }
 
 		while (repite);
-      	    num = atoi(linea.c_str());
+      	    num = atof(linea.c_str());
      		area(num);
             cout<<("Gracias! Hasta luego \n\n");
 	
