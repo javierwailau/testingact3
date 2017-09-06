@@ -150,10 +150,12 @@ bool esNumerico(string linea)
           P = false;
        } else {
           int i;
-          if ((linea[0] == '+' )|| (linea[0] == '-'))
-             i = 1;
-          else
-             i = 0;
+          if ((linea[0] == '+' )|| (linea[0] == '-')){
+          	i = 1;
+		  }
+         else{
+         	i = 0;
+		 }
      
           while (i < longitud) {
              if (!isdigit(linea[i])) {
@@ -196,12 +198,10 @@ int main (int argc, char*argv[]){
 }
 
 		while (repite);
-      	    num = atof(linea.c_str());
+      	    num = atoi(linea.c_str());
      		area(num);
             cout<<("Gracias! Hasta luego \n\n");
 	
 	cin.get();	
 	return 0;
 }
-
-
